@@ -11,7 +11,6 @@ body {
 
 
 .h2{
-
 }
 
 p {
@@ -74,6 +73,7 @@ p {
   
 }
 .decks-remaining-text{
+    
 
    
   
@@ -95,6 +95,7 @@ p {
     display:inline-block;
     padding:2%;
     align-content: space-around;
+    
    
 }
 
@@ -114,5 +115,27 @@ p {
      font-weight: bold;
 }
 
+
+/* reset button */
+
+.reset-button {
+   width:fit-content;
+   border: 2px solid darkgreen;
+   text-align: center;
+   align-content: center;
+   padding: 2px;
+}
+/*
+.reset-button-text {
+height:40px;
+font-size: 30px;
+letter-spacing: 1px;
+width: 30%;
+padding: 1%;
+border: 2px solid darkgreen;
+text-align: center;
+
+
+}
 
 
