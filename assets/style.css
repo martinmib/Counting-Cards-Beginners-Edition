@@ -1,23 +1,118 @@
 body {
-    background: ;
-    font-family: "IM+Fell+English+SC", sans-serif; 
+
+    background-image: url("../assets/images/casino-background.jpeg");
+    font-family: 'IM Fell English SC', serif; 
     text-align: center;
+}
+
+.h1 {
+
+}
+
+
+.h2{
+
+}
+
+p {
+    font-size: 20px;
+    font-family: 'IM Fell English SC', serif ;
+    font-weight: 400;
+
 }
 /* --- Heading --- */
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    color: whitesmoke;
 
 }
+
 .logo {
     height:40px;
     padding-right: 5px;
+    color: whitesmoke;
 }
 
 /* --- Game Area ---*/
 
 .game-area {
     background: green;
-    
+    box-sizing: border-box;
+    width: 85%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%; /* adjust this to size when complete*/   
 }
+
+/* ---- truecount area */
+
+.true-count-area {
+    width: 85%;
+    text-align: center;
+    
+
+}
+#true-count-window {
+    border: 2px solid darkgreen;
+    height: 50px;
+    padding: 2%;
+    background: white;
+}
+
+/* ----- decks remaining ----- */
+
+.decks-remaining {
+    align-content: inline-row;
+    width: 95%;
+    height:70px;
+    border:2px solid darkgreen;
+    background: rgba( 0, 0, 0, 0.5);
+    padding: 2%;
+  
+}
+.decks-remaining-text{
+
+   
+  
+
+}
+.decks-remaining-button {
+    border: 2px solid darkgreen;
+    height: 40px;
+    width: 20px;
+    padding: 1%;
+    background: white;
+    align-content: center;
+
+}
+
+/* ----- counting area ----- */
+
+.counting-buttons {
+    display:inline-block;
+    padding:2%;
+    align-content: space-around;
+   
+}
+
+
+.counting-buttons-text {
+
+    border: 3px solid darkgreen;
+    height: 120px;
+    width: 100px;
+    background: white;
+    letter-spacing: 1px;
+   
+   
+}
+#numbers {
+     font-size: 20px;
+     font-weight: bold;
+}
+
+
+
