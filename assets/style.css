@@ -40,7 +40,7 @@ p {
     background: green;
     box-sizing: border-box;
     width: 85%;
-    height: 80vh;
+    height: 95vh;
     margin-left: auto;
     margin-right: auto;
     padding: 2%; /* adjust this to size when complete*/ 
@@ -66,11 +66,11 @@ p {
 
 .decks-remaining {
    
-    width: 95%;
+    width: 97%;
     height:110px;
     border:2px solid darkgreen;
     background: rgba( 0, 0, 0, 0.5);
-    padding: 2%;
+    padding: 1%;
   
 }
 .decks-remaining-text{
@@ -81,12 +81,23 @@ p {
 
 }
 .decks-remaining-button {
+    font-family: 'IM Fell English SC', serif;
     border: 2px solid darkgreen;
     height: 40px;
     width: 20px;
     padding: 1%;
     background: white;
     align-content: center;
+
+
+}
+.decks-remaining-button:active {
+    background-color: lightgreen;
+}
+.decks-remaining-button:hover {
+
+    background: rgba( 0, 0, 0, 0.5);
+
 
 }
 
@@ -104,12 +115,21 @@ p {
 .counting-buttons-text {
     border: 3px solid darkgreen;
     height: 100px;
-    width: 100px;
-    background: white;
+    width: 75px;
+    background:white;
     letter-spacing: 1px;
     padding: 1%;
-   
-   
+
+}
+
+.counting-buttons-text:hover{
+    background:rgba( 0, 0, 0, 0.5); 
+}
+.cards {
+
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
 }
 #numbers {
      font-size: 20px;
@@ -133,7 +153,10 @@ padding: 1%;
 border: 2px solid darkgreen;
 text-align: center;
 
+}
+.reset-button-text:hover {
+    background:rgba( 0, 0, 0, 0.5);
+
 
 }
-
 
