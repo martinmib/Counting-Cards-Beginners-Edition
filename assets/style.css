@@ -43,7 +43,8 @@ p {
     height: 80vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 2%; /* adjust this to size when complete*/   
+    padding: 2%; /* adjust this to size when complete*/ 
+    
 }
 
 /* ---- truecount area */
@@ -64,9 +65,9 @@ p {
 /* ----- decks remaining ----- */
 
 .decks-remaining {
-    align-content: inline-row;
+   
     width: 95%;
-    height:70px;
+    height:110px;
     border:2px solid darkgreen;
     background: rgba( 0, 0, 0, 0.5);
     padding: 2%;
@@ -101,12 +102,12 @@ p {
 
 
 .counting-buttons-text {
-
     border: 3px solid darkgreen;
-    height: 120px;
+    height: 100px;
     width: 100px;
     background: white;
     letter-spacing: 1px;
+    padding: 1%;
    
    
 }
@@ -119,16 +120,13 @@ p {
 /* reset button */
 
 .reset-button {
-   width:fit-content;
-   border: 2px solid darkgreen;
-   text-align: center;
-   align-content: center;
-   padding: 2px;
-}
-/*
+    
+   }
+
+
 .reset-button-text {
-height:40px;
-font-size: 30px;
+font-family: 'IM Fell English SC', serif;
+font-size: 20px;
 letter-spacing: 1px;
 width: 30%;
 padding: 1%;
