@@ -9,77 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <link href="assets/style.css" rel="stylesheet" type="text/css" />
-    <title>Card-Counting-Basics</title>
+    <title>CardCountingBasics</title>
 </head>
-
 <body>
-    <h1 class=" heading">
-        <img class="logo" src="assets/images/logo-img.png">Card Counting Basics
-    </h1>
-    <div class="game-area">
-        <div class="true-count-area">
-            <div>
-                <h2 class="true-count-text">True Count >    <span id="true-count-window">0</span></h2>
-            </div>
-        </div>
-        <br>
-        <div class="current-count-area">
-            <div>
-                <h2 class="current-count-text">Current Count > <span id="current-count-window">0</span></h2>
-            </div>
-        </div>
-        <div class="decks-remaining">
-            <p class="decks-remaining-text">
-                decks remaining:
-                <br>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-1">1</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-2">2</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-3">3</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-4">4</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-5">5</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-6">6</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-7">7</button>
-                <button data-type="division" class="decks-remaining-button" id="decks-remaining-button-8">8</button>
-            </p>
-        </div>
-        <h2>click each button in corrospondence with each card that is called</h2>
-        <div class="counting-buttons">
-            <button data-type="addition" class="counting-buttons-text" id="addition-counting-button">
-                <p id="numbers">+1</p>
-                
-                
-            </button>
-            
-        <button data-type="static" class="counting-buttons-text" id="static-counting-button">
-            <p id="numbers">0</p>
-            
-           
-        </button>
-       
-
-        <button data-type="subtract" class="counting-buttons-text" id="static-counting-button">
-            <p id="numbers">-1</p>
-            
-            
-        </button>
-        <div class="cards">
-        <p>(2,3,4,5,6)</p>
-        <p>(7,8,9)</p>
-        <p>(10,j,q,k,a)</p>
+    <div class="gamearea">
+        <h1>Card Counting Basics</h1>
+        <span id = "counter">0</span>
+        <button class = "btn decrease">2,3,4,5,6,</button>
+        <button class = "btn statcik">7,8,9</button>
+        <button class = "btn increase">10,j,q,k,a</button>
     </div>
+    <div> 
+        <button class = "btn reset">reset</button>
     </div>
-        <div class="reset-button">
-            <button data-type="reset" class="reset-button-text" id="reset-button-refresh">
-                reset
-            </button></div>
-
-        <div class="footer-text">
-            <p>mastering the basics</p>
-            <p>beginners edition</p>
-        </div>
-    </div>
-    </div>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
-
 </html>

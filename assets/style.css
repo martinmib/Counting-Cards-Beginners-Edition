@@ -110,15 +110,16 @@ p {
 
 
 }
-.decks-remaining-button:active {
-    background-color: lightgreen;
-}
+
 .decks-remaining-button:hover {
 
     background: rgba( 0, 0, 0, 0.5);
 
 
 }
+.decks-remaining-button:active {
+    
+    background-color: lightgreen;}
 
 /* ----- counting area ----- */
 
