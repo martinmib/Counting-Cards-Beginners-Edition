@@ -1,182 +1,30 @@
-body {
-
-    background-image: url("../assets/images/casino-background.jpeg");
-    font-family: 'IM Fell English SC', serif; 
-    text-align: center;
-}
-
-.h1 {
-
-}
-
-
-.h2{
-}
-
-p {
-    font-size: 20px;
-    font-family: 'IM Fell English SC', serif ;
-    font-weight: 400;
-
-}
-/* --- Heading --- */
-
-.heading {
-    text-align: center;
-    font-size: 2.5rem;
-    color: whitesmoke;
-
-}
-
-.logo {
-    height:40px;
-    padding-right: 5px;
-    color: whitesmoke;
-}
-
-/* --- Game Area ---*/
-
-.game-area {
-    background: green;
+* { 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    width: 85%;
-    height: 95vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%; /* adjust this to size when complete*/ 
-    
-}
-
-/* ---- truecount area */
-
-.true-count-area {
-    width: 85%;
-    text-align: center;
-    
-
-}
-#true-count-window {
-    border: 2px solid darkgreen;
-    height: 50px;
-    padding: 2%;
-    background: white;
-}
-
-
-/* ---- current count area */
-
-
-.current-count-area {
-    width: 85%;
-    text-align: center;
-    
-
-}
-#current-count-window {
-    border: 2px solid darkgreen;
-    height: 50px;
-    padding: 2%;
-    background: white;
-}
-
-
-
-/* ----- decks remaining ----- */
-
-.decks-remaining {
-   
-    width: 97%;
-    height:110px;
-    border:2px solid darkgreen;
-    background: rgba( 0, 0, 0, 0.5);
-    padding: 1%;
-  
-}
-.decks-remaining-text{
-    
-
-   
-  
-
-}
-.decks-remaining-button {
     font-family: 'IM Fell English SC', serif;
-    border: 2px solid darkgreen;
-    height: 40px;
-    width: 20px;
-    padding: 1%;
+
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span { 
+    font-size : 100px;
+    padding: 10px;
+    color: darkgreen;
+}
+
+.btn { 
     background: white;
-    align-content: center;
-
-
+    outline: none;
+    border: 1px solid darkgreen; 
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
 }
-
-.decks-remaining-button:hover {
-
-    background: rgba( 0, 0, 0, 0.5);
-
-
-}
-.decks-remaining-button:active {
-    
-    background-color: lightgreen;}
-
-/* ----- counting area ----- */
-
-.counting-buttons {
-    display:inline-block;
-    padding:2%;
-    align-content: space-around;
-    
-   
-}
-
-
-.counting-buttons-text {
-    border: 3px solid darkgreen;
-    height: 100px;
-    width: 75px;
-    background:white;
-    letter-spacing: 1px;
-    padding: 1%;
-
-}
-
-.counting-buttons-text:hover{
-    background:rgba( 0, 0, 0, 0.5); 
-}
-.cards {
-
-    display:flex;
-    text-align: center;
-    justify-content: space-between;
-}
-#numbers {
-     font-size: 20px;
-     font-weight: bold;
-}
-
-
-/* reset button */
-
-.reset-button {
-    
-   }
-
-
-.reset-button-text {
-font-family: 'IM Fell English SC', serif;
-font-size: 20px;
-letter-spacing: 1px;
-width: 30%;
-padding: 1%;
-border: 2px solid darkgreen;
-text-align: center;
-
-}
-.reset-button-text:hover {
-    background:rgba( 0, 0, 0, 0.5);
-
-
-}
-
